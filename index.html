@@ -14,44 +14,54 @@
       <div class="container">
         <div class="cart">
           <div class="col-md-12 col-lg-10 mx-auto">
-            <div class="cart-item">
-              <div class="row">
-                <div class="col-md-7 center-item">
-                  <img src="images/product-1.png" alt="" />
-                  <h5>iPhone 11 128GB Black</h5>
-                </div>
-
-                <div class="col-md-5 center-item">
-                  <div class="input-group number-spinner">
-                    <button class="btn btn-default"><i class="fas fa-minus"></i></button>
-                    <input type="text" class="form-control text-center" value="1" />
-                    <button class="btn btn-default"><i class="fas fa-plus"></i></button>
+            <div class="shop_items">
+              <div class="cart-item item mobile">
+                <div class="row">
+                  <div class="col-md-7 center-item">
+                    <img src="images/product-1.png" alt="" />
+                    <h5>iPhone 11 128GB Black</h5>
                   </div>
-                  <h5>$1219</h5>
-                  <img src="images/remove.png" alt="" class="remove-item" />
+
+                  <div class="col-md-5 center-item">
+                    <div class="input-group number-spinner">
+                      <button class="btn btn-default"><i class="fas fa-minus"></i></button>
+                      <input type="text" class="form-control text-center item_number_1" value="1" />
+                      <button class="btn btn-default"><i class="fas fa-plus"></i></button>
+                    </div>
+                    <h5>$1219</h5>
+                    <img src="images/remove.png" alt="" class="remove-item" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="cart-item item mobile_case">
+                <div class="row">
+                  <div class="col-md-7 center-item mx-auto">
+                    <img src="images/product-2.png" alt="" />
+                    <h5>iPhone 11 Silicone Case - Black</h5>
+                  </div>
+                  <div class="col-md-5 center-item">
+                    <div class="input-group number-spinner">
+                      <button class="btn btn-default"><i class="fas fa-minus"></i></button>
+                      <input type="text" class="form-control text-center item_number_2" value="1" />
+                      <button class="btn btn-default"><i class="fas fa-plus"></i></button>
+                    </div>
+                    <h5>$59</h5>
+                    <img src="images/remove.png" alt="" class="remove-item" />
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="cart-item">
-              <div class="row">
-                <div class="col-md-7 center-item mx-auto">
-                  <img src="images/product-2.png" alt="" />
-                  <h5>iPhone 11 Silicone Case - Black</h5>
-                </div>
-                <div class="col-md-5 center-item">
-                  <div class="input-group number-spinner">
-                    <button class="btn btn-default"><i class="fas fa-minus"></i></button>
-                    <input type="text" class="form-control text-center" value="1" />
-                    <button class="btn btn-default"><i class="fas fa-plus"></i></button>
-                  </div>
-                  <h5>$59</h5>
-                  <img src="images/remove.png" alt="" class="remove-item" />
-                </div>
-              </div>
+            <div class="no_item_message">
+              <p>There is no item to buy. 😀</p>
             </div>
 
-            <div class="cart-item">
+            <div class="leaving_message">
+              <p>thank you for being here.</p>
+            </div>
+
+            <div class="cart-item price_table">
               <div class="row">
                 <div class="col-md-8">
                   <h5>Subtotal:</h5>
@@ -68,10 +78,13 @@
             </div>
             <div class="col-md-12 pt-4 pb-4">
               <button type="button" class="btn btn-success check-out">Check Out</button>
+              <button type="button" class="btn btn-success quit">Quit</button>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
